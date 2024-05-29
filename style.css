@@ -1,0 +1,42 @@
+ #currency-table {
+   font-family: Arial, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+ }
+
+ #currency-table th,
+ #currency-table td {
+   border: 1px solid #bebebe;
+   transition: all 1s;
+   text-align: left;
+   padding: 8px;
+ }
+
+
+ #currency-table th {
+   height: 50px;
+   background-color: #11702f;
+   color: white;
+   font-size: 20px;
+   font-weight: 600;
+ }
+
+ .currency-negative {
+   background-color: #d50000;
+   color: white;
+   font-weight: 600;
+ }
+
+ .currency-positive {
+   background-color: #29c529;
+   color: white;
+   font-weight: 600;
+
+ }
+
+ span {
+   font-size: 30px;
+ }
+ .fi {
+  margin-right: 5px;
+}
